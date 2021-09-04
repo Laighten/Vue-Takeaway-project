@@ -5,7 +5,7 @@
             <router-link class="header_search" slot="left" to="/search">
               <i class="iconfont icon-sousuo"></i>
             </router-link>
-            <router-link class="header_login" slot="right" :to="userInfo?'/userinfo':'login'">
+            <router-link class="header_login" slot="right" :to="userInfo._id ? '/userinfo': '/login'">
             <span class="header_login_text" v-if="!userInfo._id">
               登录|注册
             </span>

@@ -2,3 +2,8 @@
 /config/
 /dist/
 /*.js
+/api/
+/components/
+/pages/
+/router/
+/store/
